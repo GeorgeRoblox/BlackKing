@@ -195,7 +195,7 @@ getgenv().Bk = true
 
 inffirsttab:AddLabel("<DOORS>")
 
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issus</font>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issues</font>")
 
 	inffirsttab:AddLabel("\n<UNIVERSAL>")
     inffirsttab:AddLabel("<font color='#1eff00'>+ Universal script</font>")
@@ -5711,4 +5711,4 @@ end)
 	ThemeManager:ApplyToTab(Tabs['UI Settings'])
 end
 
--- v.2.0.0
+-- v.2.0.1
