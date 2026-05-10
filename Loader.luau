@@ -1,6 +1,7 @@
 local GameList = {
     [6516141723] = "Doors",
-    [6839171747] = "Doors: Hotel",
+    [6839171747] = "Doors",
+    [110258689672367] = "Doors",
 }
 
 local place_id = game.PlaceId
