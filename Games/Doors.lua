@@ -172,7 +172,7 @@ end
 	end
 
 local Window = Library:CreateWindow({
-    Title = txt,
+    Title = "BlackKing | Doors",
     Footer = "BlackKing | Doors",
     Icon = 127847629875227,
     NotifySide = "Right",
