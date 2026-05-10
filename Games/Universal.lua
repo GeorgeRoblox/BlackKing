@@ -100,7 +100,7 @@ end
 		local inffirsttab = infTab:AddTab('Update Log')
 inffirsttab:AddLabel("<DOORS>")
 
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issus</font>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issues</font>")
 
 	inffirsttab:AddLabel("\n<UNIVERSAL>")
     inffirsttab:AddLabel("<font color='#1eff00'>+ Universal script</font>")
@@ -655,4 +655,4 @@ inffirsttab:AddLabel("<font color='#ff0000'>- Removed Obsidian Lib</font>")
 		ThemeManager:ApplyToTab(Tabs['UI Settings'])
 	end
 
--- v.2.0.0
+-- v.2.0.1
