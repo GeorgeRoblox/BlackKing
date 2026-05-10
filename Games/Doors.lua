@@ -194,13 +194,15 @@ getgenv().Bk = true
 	local inffirsttab = infTab:AddTab('Update Log')
 
 inffirsttab:AddLabel("<DOORS>")
-inffirsttab:AddLabel("<font color='#1eff00'>+ added Infinite Items for hotel-</font>")
-inffirsttab:AddLabel("<font color='#1eff00'>+ Linoria Lib (Main)</font>")
 
-inffirsttab:AddLabel("<font color='#ff0000'>- Removed Obsidian Lib</font>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issus</font>")
 
 	inffirsttab:AddLabel("\n<UNIVERSAL>")
     inffirsttab:AddLabel("<font color='#1eff00'>+ Universal script</font>")
+
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Linoria Lib (Main)</font>")
+
+inffirsttab:AddLabel("<font color='#ff0000'>- Removed Obsidian Lib</font>")
 
 	local mnTAB = Tabs.Main:AddLeftTabbox()
 	local firsttab = mnTAB:AddTab('General')
@@ -5708,3 +5710,5 @@ end)
 	SaveManager:BuildConfigSection(Tabs['UI Settings'])
 	ThemeManager:ApplyToTab(Tabs['UI Settings'])
 end
+
+-- v.2.0.0
