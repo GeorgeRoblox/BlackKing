@@ -108,9 +108,11 @@ end
 		local infTab = Tabs.Info:AddLeftTabbox()
 		local inffirsttab = infTab:AddTab('Update Log')
 
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Linoria Lib (Main)</font>")
+			inffirsttab:AddLabel("\n<DOORS>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Lobby Support</font>")
 
-inffirsttab:AddLabel("<font color='#ff0000'>- Removed Obsidian Lib</font>")
+	inffirsttab:AddLabel("\n<SCRIPT>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Auto Show Ui when loaded</font>")
 
 		local mntab = Tabs.Main:AddLeftTabbox()
 		local mainft = mntab:AddTab('localplayer')
