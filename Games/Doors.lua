@@ -171,13 +171,17 @@ end
 		s:Play()
 	end
 
-local Window = Library:CreateWindow({
-    Title = "BlackKing | Doors",
-    Footer = "BlackKing | Doors",
-    Icon = 127847629875227,
-    NotifySide = "Right",
-    ShowCustomCursor = true,
-})
+	local Window = Library:CreateWindow({
+		Title = "BlackKing | Doors",
+		Center = true,
+		AutoShow = true,
+		Resizable = true,
+		ShowCustomCursor = true,
+		UnlockMouseWhileOpen = true,
+		NotifySide = "Right",
+		TabPadding = 8,
+		MenuFadeTime = 0.2
+	})
 
 local Tabs = {
     Info = Window:AddTab("Info"),
@@ -193,16 +197,11 @@ getgenv().Bk = true
 	local infTab = Tabs.Info:AddLeftTabbox()
 	local inffirsttab = infTab:AddTab('Update Log')
 
-inffirsttab:AddLabel("<DOORS>")
+			inffirsttab:AddLabel("\n<DOORS>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Lobby Support</font>")
 
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Fixed big issues</font>")
-
-	inffirsttab:AddLabel("\n<UNIVERSAL>")
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Universal script</font>")
-
-    inffirsttab:AddLabel("<font color='#1eff00'>+ Linoria Lib (Main)</font>")
-
-inffirsttab:AddLabel("<font color='#ff0000'>- Removed Obsidian Lib</font>")
+	inffirsttab:AddLabel("\n<SCRIPT>")
+    inffirsttab:AddLabel("<font color='#1eff00'>+ Auto Show Ui when loaded</font>")
 
 	local mnTAB = Tabs.Main:AddLeftTabbox()
 	local firsttab = mnTAB:AddTab('General')
@@ -5710,5 +5709,3 @@ end)
 	SaveManager:BuildConfigSection(Tabs['UI Settings'])
 	ThemeManager:ApplyToTab(Tabs['UI Settings'])
 end
-
--- v.2.0.1
