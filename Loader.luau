@@ -1,5 +1,5 @@
 local GameList = {
-    [6516141723] = "Doors",
+    [6516141723] = "Doors lobby",
     [6839171747] = "Doors",
     [110258689672367] = "Doors",
 }
@@ -13,6 +13,8 @@ end
 
 if GameList[place_id] == "Doors" then
     Load(url .. "Doors.lua")
+elseif GameList[place_id] == "Doors lobby" then
+    Load(url .. "DoorsLobby.lua")
 else
     Load(url .. "Universal.lua")
 end
