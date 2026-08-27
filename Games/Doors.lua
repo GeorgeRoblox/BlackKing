@@ -4379,7 +4379,7 @@ thirdtabbyp:AddToggle('RemoveScreech', {
     end
 })
 
-thirdtabbyp:AddToggle('RemoveScreech', {
+thirdtabbyp:AddToggle('RemoveDread', {
     Text = 'Disable Dread',
     Default = false,
     Tooltip = 'Prevents Dread from spawning.',
